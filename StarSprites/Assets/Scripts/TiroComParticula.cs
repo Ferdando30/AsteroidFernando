@@ -13,7 +13,7 @@ public class TiroComParticula : MonoBehaviour
 
     void Update()
     {
-        if (Input.GetKey(KeyCode.C))
+        if (Input.GetKeyDown(KeyCode.C))
         {
             Fire();
         }
@@ -22,4 +22,5 @@ public class TiroComParticula : MonoBehaviour
     {
         particleSystem.Emit(1);
     }
+    
 }
